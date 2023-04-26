@@ -27,7 +27,7 @@ const AddTaskForm = ({
             <div>
               <button
                 onClick={updateTask}
-                className="btn bg-sky-300 border-2 py-5 px-10"
+                className="btn bg-sky-300 hover:bg-sky-600 border-2 py-5 px-10"
               >
                 Update
               </button>
@@ -35,7 +35,7 @@ const AddTaskForm = ({
             <div>
               <button
                 onClick={cancelUpdate}
-                className="btn bg-yellow-200 border-2 py-5 px-10"
+                className="btn bg-yellow-200 hover:bg-yellow-300 border-2 py-5 px-10"
               >
                 Cancel
               </button>
@@ -50,13 +50,13 @@ const AddTaskForm = ({
               <input
                 value={newTask}
                 onChange={(e) => setNewTask(e.target.value)}
-                className="p-5 w-[400px] text-left font-xl border-2"
+                className="p-5 md:w-[400px] text-left font-xl border-2"
                 type="text"
               />
             </div>
             <div>
               <button
-                className="btn bg-sky-300 border-2 py-5 px-10"
+                className="btn bg-sky-300 hover:bg-sky-600 border-2 py-5 px-10"
                 onClick={addTask}
               >
                 Add Task

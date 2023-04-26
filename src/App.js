@@ -83,7 +83,7 @@ setUpdateData('')
 
 
   return (
-    <div className="w-[50%] mx-auto mt-10">
+    <div className="md:w-[50%] md:mx-auto mt-10">
       <h1 className="text-4xl font-bold mb-16 text-center underline uppercase">To Do List</h1>
       <AddTaskForm newTask={newTask} setNewTask={setNewTask} addTask={addTask} updateData={updateData} changeTask={changeTask} updateTask={updateTask} cancelUpdate={cancelUpdate}/>
 
